@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add @solana/web3.js
+
+PATH: 
+  /Users/dannydang/.rbenv/shims:/versions:/usr/local/bin:/Applications/google-cloud-sdk/bin:/opt/homebrew/bin:/Users/dannydang/.local/share/solana/install/active_release/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/dannydang/.rbenv/shims:/Users/dannydang/.rbenv/bin:/versions:/Applications/google-cloud-sdk/bin:/opt/homebrew/bin:/Users/dannydang/.local/share/solana/install/active_release/bin:/Users/dannydang/.cargo/bin:/Users/dannydang/Library/Android/sdk/emulator:/Users/dannydang/Library/Android/sdk/platform-tools:/Users/dannydang/Library/Android/sdk/emulator:/Users/dannydang/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.3.35:443 - Local (0.0.0.0:52138)
+      at internalConnect (node:net:953:16)
+      at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+      at emitLookup (node:net:1097:9)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:103587:28
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:103496:13
+      at RawTask.module.exports.RawTask.call (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:79584:19)
+      at flush (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:79666:29)
+      at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+npm manifest: 
+  {
+    "name": "daily-challanges",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@types/node": "20.6.3",
+      "@types/react": "18.2.22",
+      "@types/react-dom": "18.2.7",
+      "autoprefixer": "10.4.16",
+      "eslint": "8.49.0",
+      "eslint-config-next": "13.5.2",
+      "next": "13.5.2",
+      "postcss": "8.4.30",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "tailwindcss": "3.3.3",
+      "typescript": "5.2.2",
+      "@sqds/multisig":"^1.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
