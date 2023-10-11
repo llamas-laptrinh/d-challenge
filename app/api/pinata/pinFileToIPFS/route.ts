@@ -13,7 +13,7 @@ export async function POST(request: Request) {
   formData.append("file", file);
 
   const pinataMetadata = JSON.stringify({
-    name: "API File",
+    name: `${new Date().getTime()}`,
   });
   formData.append("pinataMetadata", pinataMetadata);
 
