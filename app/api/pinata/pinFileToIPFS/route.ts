@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import axios from "axios";
 
-export async function GET(request: Request) {}
 export async function POST(request: Request) {
   const formData = await request.formData();
 
